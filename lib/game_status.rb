@@ -23,7 +23,7 @@ def won?(board)
     spot1 = board[combo[0]]
     spot2 = board[combo[1]]
     spot3 = board[combo[2]]
-    if (spot1 == "X" || spot1 == "O")
+    if (spot1 == "X" || "O")
       if (spot1 == spot2 && spot1 == spot3)
         return combo
       end
